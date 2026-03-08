@@ -9,11 +9,23 @@
       justify-content: center;
       align-items: center;
       height: 100vh;
+      margin: 0;
+    }
+    .container {
+      text-align: center;
+    }
+    .logo {
+      width: min(512px, 80vw);
+      height: auto;
+    }
+    a {
+      font-size: clamp(18px, 5vw, 24px);
+      display: block;
     }
   </style>
   <body>
-    <div>
-      <img width="128" height="128" alt="Image" src="logo.png" />
+    <div class="container">
+      <img class="logo" alt="Image" src="logo.png" />
       <br />
       <a href="https://osum-llc.github.io/terms/"> Terms and Conditions </a>
       <br />
